@@ -1,11 +1,17 @@
 #COPADS
 
+Project 1:
 Given a database file of users and their password hashes(Each password is hashed by apply SHA-256 to the password 100,000 
 times) and a dictionary of potential passwords, compute each potential password in the dictionary and compare the calcualted
 hash to the database file of password hashes. 
 
 Java program uses multiple threads to carry out the dictionary attack.
 
+Project 2:
+Given database file of users and their password hashes, find passwords of length 1 to 4 characters, where each character is a lowercase letter from a to z and digits 0 to 9. Go thru every password, compute its hash and check if it matches any user
+in the database. 
+
+Java program uses Parallel Java 2 Library to carry out brute force attack
 
 ## History
 
